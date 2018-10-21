@@ -3,15 +3,38 @@
   padding: 0;
 }
 .button{
+  color: white;
   width: 50px;
   height: 50px;
   font-size: 25px;
   margin: 2px;
   cursor: pointer;
+  border: .2px solid rgba(255, 255, 255, .3);
+  border-radius: 5px; 
+  background: transparent;
+}
+.btn-equal{
+  height: 106px;
+}
+.btn-zero{
+  width: 106px;
 }
 .textView{
-  width: 200px;
+  width: 206px;
   margin: 5px;
   font-size: 25px;
   padding: .5px;
+}
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.bg{
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100vh;
 }
