@@ -13,6 +13,9 @@
   border-radius: 5px; 
   background: transparent;
 }
+.button:hover{
+  background: rgba(255, 255, 255, .1);
+}
 .btn-equal{
   height: 106px;
 }
